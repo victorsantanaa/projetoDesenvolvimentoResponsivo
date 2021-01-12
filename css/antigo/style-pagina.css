@@ -1,0 +1,40 @@
+.pagina-cabecalho{
+    background-color: #dd3f3f;
+    background-image: url("../img/cabecalho-pagina-bg.jpg");
+    color: #fff;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-attachment: fixed;
+}
+
+.pagina-cabecalho__titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.pagina-cabecalho__titulo::after{
+    width: 50px;
+    height: 3px;
+    content: '';
+    display: block;
+    background-color: #fff;
+    margin: 0 auto; /*top&bottom left&right*/
+    margin-top: 20px;
+}
+
+.pagina-conteudo{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.pagina-conteudo p{
+    color: #3a3a3a;
+    line-height: 22px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
